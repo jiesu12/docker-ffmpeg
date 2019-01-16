@@ -1,4 +1,4 @@
-FROM armhf/alpine:3.5
+FROM alpine:3.8
 
 RUN apk --no-cache add ffmpeg busybox-suid tzdata && \
 ln -snf /usr/share/zoneinfo/America/Chicago /etc/localtime && \
